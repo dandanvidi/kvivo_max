@@ -4,7 +4,7 @@ from cobra.manipulation.modify import convert_to_irreversible
 import numpy as np
 from model_addons import add_to_model
 
-class CATALYTIC_RATES(object):
+class rates(object):
     
     def __init__(self):
         
@@ -19,15 +19,22 @@ class CATALYTIC_RATES(object):
 
         self.gc = pd.DataFrame.from_csv("../data/growth_conditions.csv")
 
-        self.v = pd.DataFrame.from_csv('../cache/flux[mmol_gCDW_h].csv')
-        self.p = pd.DataFrame.from_csv('../cache/abundance[copies_fL].csv')
-#        
+        self.flux_data = pd.DataFrame.from_csv('../data/flux[mmol_gCDW_s].csv')
+        # PPKr_reverse reaction is used for ATP generation from ADP 
+        # in the FBA model. Nevertheless, acording to EcoCyc, it is used to 
+        # to generate polyP (inorganic phosphate) chains from ATP and it is not
+        # part of the oxidative phosphorilation, thus removed from rate calculations
+        if 'PPKr_reverse' in self.flux_data.index:            
+            self.flux_data.drop('PPKr_reverse', axis=0, inplace=True)
+            
+        self.expression_data = pd.DataFrame.from_csv('../data/abundance[mmol_gCDW].csv')
+
         self.enzymatic_reactions = self.enzymatic_reactions()       
         self.homomeric_reactions = self.reactions_by_homomeric_enzymes() 
-        self.kapp = self.get_kapp(self.v, self.p) # per subunit
-        self.SA = self.get_specific_activity(self.v, self.p)
-#        
-        self.kcat = self.get_kcat()
+        self.kapp = self.get_kapp() # per subunit
+        self.SA = self.get_specific_activity()
+
+        self.kcat = pd.DataFrame.from_csv("../data/kcat_data.csv") 
         self.p_per_as = (self.kcat['polypeptides per complex'] 
                                     / self.kcat['catalytic sites per complex'])
         self.kmax = self.get_kmax(self.kapp)
@@ -79,7 +86,7 @@ class CATALYTIC_RATES(object):
                                  self.enzymatic_reactions)
         return homomers
 
-    def convert_copies_fL_to_mmol_gCDW(self, expression_data):
+    def _convert_copies_fL_to_mmol_gCDW(self, expression_data):
         '''
             Convertes the units of proteomics data (usually reported in 
             copies per fL of cytoplasm) to units of mmol per gCDW.
@@ -95,7 +102,7 @@ class CATALYTIC_RATES(object):
         expression_data.to_csv('../cache/abundance[mmol_gCDW].csv')
         return expression_data
 
-    def convert_mmol_gCDW_h_to_mmol_gCDW_s(self, flux_data):
+    def _convert_mmol_gCDW_h_to_mmol_gCDW_s(self, flux_data):
         '''
             Convertes the units of flux data (usually reported in 
             mmol/gCDW/h) to units of mmol/gCDW per second.
@@ -106,14 +113,14 @@ class CATALYTIC_RATES(object):
         flux_data.to_csv('../cache/flux[mmol_gCDW_s].csv')
         return flux_data
         
-    def convert_mmol_gCDW_to_mg_gCDW(self, expression_data):
+    def _convert_mmol_gCDW_to_mg_gCDW(self, expression_data):
         
         genes = set(self.genes.keys()) & (set(expression_data.index))
         mass = [self.genes[g].MW for g in genes]        
         MW = pd.Series(index=genes, data=mass)
         return expression_data.loc[MW.index].mul(MW, axis=0) 
         
-    def get_kapp(self, flux_data, expression_data):
+    def get_kapp(self):
         '''
             Calculates the catalytic rate of a single subunit of a homomeric
             enzyme for a given reaction, by dividing the flux through the 
@@ -121,36 +128,27 @@ class CATALYTIC_RATES(object):
             the enzyme.
             
             Arguments:
-                flux (mmol/gCDW/s)
-                proteomics (mmol/gCDW)
+                flux [mmol/gCDW/s]
+                proteomics [mmol/gCDW]
             
             Returns:
                 pandas dataframe with catalytic rates per polypeptide chain
                 in units of s^-1. Rows are reactions, columns are conditions 
         '''
-        gc = flux_data.columns & expression_data.columns
+        gc = self.flux_data.columns & self.expression_data.columns
         
-        flux_data = self.convert_mmol_gCDW_h_to_mmol_gCDW_s(flux_data)
-        expression_data = self.convert_copies_fL_to_mmol_gCDW(expression_data) 
-
         index = map(lambda x: x.id, self.homomeric_reactions)
         rate = pd.DataFrame(index=index, 
                             columns=gc)
         for r in self.reactions_by_homomeric_enzymes():
             try:
-                rate.loc[r.id] = flux_data.loc[r.id] / expression_data.loc[list(r.genes)[0].id]
+                rate.loc[r.id] = (self.flux_data.loc[r.id] / 
+                                  self.expression_data.loc[list(r.genes)[0].id])
             except KeyError:
                 continue
             
         rate.replace([0, np.inf, -np.inf], np.nan, inplace=True)
         rate.dropna(how='all', inplace=True)
-        
-        # PPKr_reverse reaction is used for ATP generation from ADP 
-        # in the FBA model. Nevertheless, acording to EcoCyc, it is used to 
-        # to generate polyP (inorganic phosphate) chains from ATP and it is not
-        # part of the oxidative phosphorilation, thus removed from rate calculations
-        if 'PPKr_reverse' in rate.index:            
-            rate.drop('PPKr_reverse', axis=0, inplace=True)
         
         return rate 
 
@@ -179,7 +177,7 @@ class CATALYTIC_RATES(object):
         names = [list(self.rxns[r].genes)[0].name for r in kmax.index]
         kmax.index.name = 'reaction'
         kmax['bnumber'] = genes
-        kmax['gene'] = names
+        kmax['primary gene name (uniprot)'] = names
         kmax['kmax per chain [s^-1]'] = kapp.max(axis=1)
 
         tmp = self.kapp.loc[kmax.index].mul(self.p_per_as[kmax.index], axis=0)
@@ -187,31 +185,10 @@ class CATALYTIC_RATES(object):
         
         kmax['subsystem'] = subsystems
         kmax['condition'] = kapp.idxmax(axis=1)
-        kmax['carbon source'] = map(lambda x: self.gc['carbon source'][x], kmax.condition)
-
+        
         return kmax
         
-    def get_second_max(self):
-        '''
-            Finds the second maximal kapp value by reaction
-            
-            Arguments:
-                self
-            Returns:
-                Pandas Series with reactions as index and snd max as values
-                
-        '''
-
-        rate = self.kapp.mul(self.p_per_as, axis=0)
-        rate.dropna(how='all', inplace=True)
-        second = pd.Series(index=rate.index)
-        for r in rate.index:
-            array = sorted(rate.loc[r])
-            second[r] = array[-2]
-
-        return second
-
-    def get_specific_activity(self, flux_data, expression_data):
+    def get_specific_activity(self):
         '''
             Calculates the specific activity in units of umol/mg/min
             for all reactions in the model. The sum of all associated
@@ -223,14 +200,14 @@ class CATALYTIC_RATES(object):
             rate of the enzymes by their mass.
             
             Arguments:
-                flux (mmol/gCDW/h)
-                proteomics (mmol/gCDW)
+                flux [mmol/gCDW/s]
+                proteomics [mmol/gCDW]
 
             Returns:
                 pandas dataframe with specific activeites of enzymes
                 in units of umol/mg/min. Rows are reactions, columns are conditions 
         '''
-        weighted_mass = self.convert_mmol_gCDW_to_mg_gCDW(expression_data)
+        weighted_mass = self._convert_mmol_gCDW_to_mg_gCDW(self.expression_data)
         reactions = map(lambda x: x.id, self.enzymatic_reactions)
         
         SA = pd.DataFrame(index=reactions, columns=self.gc.index)
@@ -238,13 +215,12 @@ class CATALYTIC_RATES(object):
         for r in self.enzymatic_reactions:
             genes = map(lambda x: x.id, r.genes)
             try:
-                SA.loc[r.id] = flux_data.loc[r.id] / weighted_mass.loc[genes].sum()
+                SA.loc[r.id] = self.flux_data.loc[r.id] / weighted_mass.loc[genes].sum()
             except KeyError:
                 continue
         
         SA.replace([0, np.inf, -np.inf], np.nan, inplace=True)
         SA.dropna(how='all', inplace=True)
-        SA.drop('PPKr_reverse', axis=0, inplace=True)
         
         return SA * 1000 * 60
         
@@ -284,9 +260,25 @@ class CATALYTIC_RATES(object):
 
         return SAmax
 
-    def get_kcat(self):
-        '''kcat values collected from BRENDA and other publications - manually curated'''
-        return pd.DataFrame.from_csv("../data/curated_kcat_values.csv")        
+    def get_second_max(self):
+        '''
+            Finds the second maximal kapp value by reaction
+            
+            Arguments:
+                self
+            Returns:
+                Pandas Series with reactions as index and snd max as values
+                
+        '''
 
+        rate = self.kapp.mul(self.p_per_as, axis=0)
+        rate.dropna(how='all', inplace=True)
+        second = pd.Series(index=rate.index)
+        for r in rate.index:
+            array = sorted(rate.loc[r])
+            second[r] = array[-2]
+
+        return second
+        
 if __name__ == "__main__":
-    R = CATALYTIC_RATES()
+    R = rates()
