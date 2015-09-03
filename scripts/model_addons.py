@@ -24,7 +24,7 @@ class add_to_model(object):
 
         for m in cobra_model.metabolites:
             try:
-                m.CID = self.metab_info.kegg_id[m[:-2]]
+                m.CID = self.metab_info.kegg_id[m.id[:-2]]
             except KeyError:
                 m.CID = None
         

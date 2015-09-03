@@ -28,7 +28,7 @@ class rates(object):
             self.flux_data.drop('PPKr_reverse', axis=0, inplace=True)
             
         self.expression_data = pd.DataFrame.from_csv('../data/abundance[mmol_gCDW].csv')
-
+        
         self.enzymatic_reactions = self.enzymatic_reactions()       
         self.homomeric_reactions = self.reactions_by_homomeric_enzymes() 
         self.kapp = self.get_kapp() # per subunit
@@ -39,12 +39,6 @@ class rates(object):
                                     / self.kcat['catalytic sites per complex'])
         self.kmax = self.get_kmax(self.kapp)
         self.SAmax = self.get_maximum_specific_activity(self.SA)             
-
-    def enzymatic_reactions(self):
-        '''
-            Returns a list of cobra Reaction objects catalyzed by enzymes.
-        '''
-        return filter(lambda r:len(r.genes)>=1, self.model.reactions)
 
     def include_specific_isozmyes(self):
         '''
@@ -64,6 +58,14 @@ class rates(object):
             self.rxns[r]._genes = [self.model.genes.get_by_id(g)]
             self.rxns[r].gene_reaction_rule = '('+g+')'
             
+    def enzymatic_reactions(self):
+        '''
+            Returns a list of cobra Reaction objects catalyzed by enzymes.
+        '''
+        reactions = filter(lambda r:len(r.genes)>=1, self.model.reactions)
+        genes = [list(r.genes) for r in reactions]
+        return dict(zip(reactions,genes))
+            
     def reactions_by_unique_enzyme(self):
         '''
             Returns a list of reactions (as cobra REACTION objects)
@@ -71,10 +73,9 @@ class rates(object):
             be homomeric or hetorometic complexes.
         '''        
         one_enzyme_reac = filter(lambda r: 'or' not in r.gene_reaction_rule, 
-                                 self.enzymatic_reactions)
-        return one_enzyme_reac
-#        
-
+                                 self.enzymatic_reactions.keys())
+        genes = [list(r.genes) for r in one_enzyme_reac]
+        return dict(zip(one_enzyme_reac,genes))
 
     def reactions_by_homomeric_enzymes(self):
         '''
@@ -83,8 +84,9 @@ class rates(object):
             of a single polypeptide chain, i.e., unique homomeric enzymes.
         '''
         homomers = filter(lambda r: len(r.genes)==1, 
-                                 self.enzymatic_reactions)
-        return homomers
+                                 self.enzymatic_reactions.keys())
+        genes = [list(r.genes)[0] for r in homomers]
+        return dict(zip(homomers,genes))
 
     def _convert_copies_fL_to_mmol_gCDW(self, expression_data):
         '''
@@ -99,7 +101,7 @@ class rates(object):
         expression_data[expression_data<10] = np.nan
         expression_data /= (Avogadro*1e5)
         expression_data /= (rho * DW_fraction)
-        expression_data.to_csv('../cache/abundance[mmol_gCDW].csv')
+        expression_data.to_csv('../data/abundance[mmol_gCDW].csv')
         return expression_data
 
     def _convert_mmol_gCDW_h_to_mmol_gCDW_s(self, flux_data):
@@ -110,7 +112,7 @@ class rates(object):
             turnover rates in units of s^-1, as traditioanlly excepted. 
         '''
         flux_data /= 3600        
-        flux_data.to_csv('../cache/flux[mmol_gCDW_s].csv')
+        flux_data.to_csv('../data/flux[mmol_gCDW_s].csv')
         return flux_data
         
     def _convert_mmol_gCDW_to_mg_gCDW(self, expression_data):
@@ -120,6 +122,17 @@ class rates(object):
         MW = pd.Series(index=genes, data=mass)
         return expression_data.loc[MW.index].mul(MW, axis=0) 
         
+    def _map_expression_by_reaction(self):
+                
+        gc = self.flux_data.columns & self.expression_data.columns
+        tmp = {k.id:v.id for k,v in self.homomeric_reactions.iteritems()}
+        E = pd.DataFrame(index=tmp.keys(),columns=gc)
+        for i in E.index:
+            if tmp[i] in self.expression_data.index:
+                E.loc[i] = self.expression_data.loc[tmp[i]]
+        E.dropna(how='all', inplace=True)
+        E.to_csv('../data/abundance_by_reaction.csv')
+        return E
     def get_kapp(self):
         '''
             Calculates the catalytic rate of a single subunit of a homomeric
@@ -135,18 +148,8 @@ class rates(object):
                 pandas dataframe with catalytic rates per polypeptide chain
                 in units of s^-1. Rows are reactions, columns are conditions 
         '''
-        gc = self.flux_data.columns & self.expression_data.columns
-        
-        index = map(lambda x: x.id, self.homomeric_reactions)
-        rate = pd.DataFrame(index=index, 
-                            columns=gc)
-        for r in self.reactions_by_homomeric_enzymes():
-            try:
-                rate.loc[r.id] = (self.flux_data.loc[r.id] / 
-                                  self.expression_data.loc[list(r.genes)[0].id])
-            except KeyError:
-                continue
-            
+        E = pd.DataFrame.from_csv('../data/abundance_by_reaction.csv')
+        rate = self.flux_data.div(E)
         rate.replace([0, np.inf, -np.inf], np.nan, inplace=True)
         rate.dropna(how='all', inplace=True)
         
@@ -181,7 +184,7 @@ class rates(object):
         kmax['kmax per chain [s^-1]'] = kapp.max(axis=1)
 
         tmp = self.kapp.loc[kmax.index].mul(self.p_per_as[kmax.index], axis=0)
-        kmax['kmax per active site [s^-1]'] = tmp.max(axis=1)
+        kmax['kmax per active site [s-1]'] = tmp.max(axis=1)
         
         kmax['subsystem'] = subsystems
         kmax['condition'] = kapp.idxmax(axis=1)
@@ -256,7 +259,6 @@ class rates(object):
         SAmax['max specific activity [umol/mg/min]'] = specific_activity.max(axis=1)        
         SAmax['subsystem'] = subsystems
         SAmax['condition'] = specific_activity.idxmax(axis=1)
-        SAmax['carbon source'] = map(lambda x: self.gc['carbon source'][x], SAmax.condition)
 
         return SAmax
 

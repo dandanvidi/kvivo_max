@@ -1,4 +1,4 @@
-growth condition,carbon source,carbon name (model),growth mode,growth rate [h-1],uptake rate [mmol gCDW-1 h-1],growth rate std [h-1],single cell volume [fL],comments,reference
+growth condition,media,media_key,growth mode,growth rate [h-1],uptake rate [mmol gCDW-1 h-1],growth rate std [h-1],single cell volume [fL],comments,reference
 GLC_CHEM_mu=0.11_V,glucose,glc,chemostat,0.11,,0,2.1,,Valgepea et al. 2013
 GLC_CHEM_mu=0.12_S,glucose,glc,chemostat,0.12,,0,1.9,,Schmidt et al. 2015
 GLC_CHEM_mu=0.20_S,glucose,glc,chemostat,0.2,,0,2.08,,Schmidt et al. 2015
@@ -30,3 +30,5 @@ GLC_BATCH_mu=0.58_S,glucose,glc,batch,0.58,,0.01,2.84,,Schmidt et al. 2015
 GLC@pH6_BATCH_mu=0.63_S,glucose,glc,batch,0.63,,0,2.93,pH6,Schmidt et al. 2015
 FRU_BATCH_mu=0.65_S,fructose,fru,batch,0.65,,0,2.96,,Schmidt et al. 2015
 GLC@42deg_BATCH_mu=0.66_S,glucose,glc,batch,0.66,,0.02,2.98,42oC,Schmidt et al. 2015
+GLYC+AA_BATCH_mu=1.27_S,glycerol + amino acids,glyc_aa,,1.27,,0.01,3.83,,
+LB_BATCH_mu=1.9_S,lysogeny broth,lb,batch,1.9,,0.03,4.29,,Schmidt et al. 2015
