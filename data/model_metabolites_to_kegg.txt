@@ -2,6 +2,7 @@ abbreviation	name	formula	charge	compartment	kegg_id	cas_id	internal_id
 
 camp	cAMP	C10H11N5O6P	-1	Cytosol	C00575		1484809	    
 pimACP	Pimeloyl-[acyl-carrier protein]	C18H31N2O10PRS	-1	Cytosol	C19845		None
+quin	Quinate	C7H12O6	0	Cytosol	C00296		None
 xu5p-L	L-Xylulose 5-phosphate	C5H9O8P	-2	Cytosol	C03291	None	41573	
 mettrna	L-Methionyl-tRNA (Met)	C5H10NOSR	1	Cytosol	C02430		227723	
 succoa	Succinyl-CoA	C25H35N7O19P3S	-5	Cytosol	C00091	604-98-8	33820	

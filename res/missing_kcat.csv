@@ -1,0 +1,1017 @@
+reaction	EC	subsystem	kcat
+23PDE2pp	3.1.4.16	Nucleotide Salvage Pathway	NaN
+23PDE4pp	3.1.4.16	Nucleotide Salvage Pathway	NaN
+23PDE7pp	3.1.4.16	Nucleotide Salvage Pathway	NaN
+23PDE9pp	3.1.4.16	Nucleotide Salvage Pathway	NaN
+2AGPEAT120	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT140	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT141	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT160	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT161	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT180	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPEAT181	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT120	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT140	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT141	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT160	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT161	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT180	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2AGPGAT181	2.3.1.40	Glycerophospholipid Metabolism	NaN
+2DGULRGy	1.1.1.215	Alternate Carbon Metabolism	NaN
+3HAD100	4.2.1.60	Cell Envelope Biosynthesis	NaN
+3HAD120	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD121	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD140	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD141	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD160	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD161	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD180	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD181	4.2.1.61	Cell Envelope Biosynthesis	NaN
+3HAD40	4.2.1.58	Cell Envelope Biosynthesis	NaN
+3HAD60	4.2.1.58	Cell Envelope Biosynthesis	NaN
+3HAD80	4.2.1.58	Cell Envelope Biosynthesis	NaN
+3OAR100	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR120	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR121	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR140	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR141	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR160	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR161	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR180	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR181	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR40	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR60	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAR80	1.1.1.100	Cell Envelope Biosynthesis	NaN
+3OAS100	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS120	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS121	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS140	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS141	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS160	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS161	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS180	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS181	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS60	2.3.1.41	Cell Envelope Biosynthesis	NaN
+3OAS80	2.3.1.41	Cell Envelope Biosynthesis	NaN
+42A12BOOXpp	1.4.3.21	Nitrogen Metabolism	NaN
+5DGLCNR	1.1.1.69	Alternate Carbon Metabolism	NaN
+A5PISO	5.3.1.13	Alternate Carbon Metabolism	NaN
+AACPS1	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS2	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS3	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS4	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS5	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS6	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS7	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS8	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AACPS9	6.2.1.20	Cell Envelope Biosynthesis	NaN
+AB6PGH	3.2.1.86	Alternate Carbon Metabolism	NaN
+ABTA	2.6.1.19	Arginine and Proline Metabolism	NaN
+ABUTD	1.2.1.19	Arginine and Proline Metabolism	NaN
+ACACT1r	2.3.1.9	Membrane Lipid Metabolism	NaN
+ACACT2r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT3r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT4r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT5r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT6r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT7r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACACT8r	2.3.1.16	Membrane Lipid Metabolism	NaN
+ACALD	1.2.1.10	Pyruvate Metabolism	NaN
+ACANTHAT	2.3.1.118	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+ACCOAC	6.4.1.2	Membrane Lipid Metabolism	NaN
+ACCOAL	6.2.1.13	Alternate Carbon Metabolism	NaN
+ACGAL1PPpp	3.1.3.10	Alternate Carbon Metabolism	NaN
+ACGAM1PPpp	3.1.3.10	Alternate Carbon Metabolism	NaN
+ACGAMK	2.7.1.59	Murein Recycling	NaN
+ACGK	2.7.2.8	Arginine and Proline Metabolism	NaN
+ACGS	2.3.1.1	Arginine and Proline Metabolism	NaN
+ACKr	2.7.2.1	Pyruvate Metabolism	NaN
+ACLS	4.1.3.18	Valine, Leucine, and Isoleucine Metabolism	NaN
+ACNML	4.1.3.3	Alternate Carbon Metabolism	NaN
+ACOAD1f	1.3.99.2	Membrane Lipid Metabolism	NaN
+ACOAD2f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD3f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD4f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD5f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD6f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD7f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOAD8f	1.3.99.3	Membrane Lipid Metabolism	NaN
+ACOATA	2.3.1.38	Membrane Lipid Metabolism	NaN
+ACODA	3.5.1.16	Arginine and Proline Metabolism	NaN
+ACONIs	5.3.3.7	Unassigned	NaN
+ACONTa	4.2.1.3	Citric Acid Cycle	NaN
+ACONTb	4.2.1.3	Citric Acid Cycle	NaN
+ACOTA	2.6.1.11	Arginine and Proline Metabolism	NaN
+ACPS1	2.7.8.7	Cofactor and Prosthetic Group Biosynthesis	NaN
+ACS	6.2.1.1	Pyruvate Metabolism	NaN
+ADA	3.5.4.4	Nucleotide Salvage Pathway	NaN
+ADCS	2.6.1.85	Cofactor and Prosthetic Group Biosynthesis	NaN
+ADD	3.5.4.2	Nucleotide Salvage Pathway	NaN
+ADK1	2.7.4.3	Nucleotide Salvage Pathway	NaN
+ADMDC	4.1.1.50	Arginine and Proline Metabolism	NaN
+ADNCYC	4.6.1.1	Nucleotide Salvage Pathway	NaN
+ADNK1	2.7.1.20	Nucleotide Salvage Pathway	NaN
+ADNUC	3.2.2.8	Alternate Carbon Metabolism	NaN
+ADPRDP	3.6.1.13	Nucleotide Salvage Pathway	NaN
+ADPT	2.4.2.7	Nucleotide Salvage Pathway	NaN
+ADSK	2.7.1.25	Cysteine Metabolism	NaN
+ADSL1r	4.3.2.2	Purine and Pyrimidine Biosynthesis	NaN
+ADSL2r	4.3.2.2	Purine and Pyrimidine Biosynthesis	NaN
+ADSS	6.3.4.4	Purine and Pyrimidine Biosynthesis	NaN
+AGDC	3.5.1.25	Alternate Carbon Metabolism	NaN
+AGMHE	5.1.3.20	Lipopolysaccharide Biosynthesis / Recycling	NaN
+AGMT	3.5.3.11	Arginine and Proline Metabolism	NaN
+AGPAT120	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT140	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT141	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT160	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT161	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT180	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPAT181	2.3.1.51	Glycerophospholipid Metabolism	NaN
+AGPR	1.2.1.38	Arginine and Proline Metabolism	NaN
+AHCYSNS	3.2.2.9	Methionine Metabolism	NaN
+AICART	2.1.2.3	Purine and Pyrimidine Biosynthesis	NaN
+AIRC3	5.4.99.18	Purine and Pyrimidine Biosynthesis	NaN
+ALAALAD	3.4.17.14	Murein Recycling	NaN
+ALAALAr	6.3.2.4	Cell Envelope Biosynthesis	NaN
+ALAR	5.1.1.1	Alanine and Aspartate Metabolism	1
+ALATA_L	2.6.1.2	Alanine and Aspartate Metabolism	NaN
+ALATRS	6.1.1.7	tRNA Charging	NaN
+ALCD19	1.1.1.1	Alternate Carbon Metabolism	1
+ALCD2x	1.1.1.1	Pyruvate Metabolism	1
+ALDD19xr	1.2.1.39	Alternate Carbon Metabolism	NaN
+ALDD2x	1.2.1.3	Alternate Carbon Metabolism	NaN
+ALDD2y	1.2.1.4	Alternate Carbon Metabolism	NaN
+ALLTAMH	3.5.3.9	Alternate Carbon Metabolism	NaN
+ALLTN	3.5.2.5	Nitrogen Metabolism	NaN
+ALTRH	4.2.1.7	Alternate Carbon Metabolism	NaN
+AMALT1	2.4.1.25	Alternate Carbon Metabolism	NaN
+AMALT2	2.4.1.25	Alternate Carbon Metabolism	NaN
+AMALT3	2.4.1.25	Alternate Carbon Metabolism	NaN
+AMALT4	2.4.1.25	Alternate Carbon Metabolism	NaN
+AMANK	2.7.1.60	Alternate Carbon Metabolism	NaN
+AMAOTr	2.6.1.62	Cofactor and Prosthetic Group Biosynthesis	NaN
+AMPN	3.2.2.4	Nucleotide Salvage Pathway	NaN
+AMPTASECG	3.4.11.2	Cysteine Metabolism	NaN
+AMPTASEPG	3.4.11.2	Arginine and Proline Metabolism	NaN
+ANPRT	2.4.2.18	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+ANS	4.1.3.27	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+AOXSr2	2.3.1.47	Cofactor and Prosthetic Group Biosynthesis	NaN
+AP4AH	3.6.1.41	Nucleotide Salvage Pathway	NaN
+APCS	2.5.1.16	Arginine and Proline Metabolism	NaN
+APH120	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH140	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH141	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH160	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH161	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH180	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APH181	3.6.1.7	Glycerophospholipid Metabolism	NaN
+APPLDHr	1.1.1.75	Threonine and Lysine Metabolism	NaN
+APRAUR	1.1.1.193	Cofactor and Prosthetic Group Biosynthesis	NaN
+ARAI	5.3.1.4	Alternate Carbon Metabolism	NaN
+ARGDC	4.1.1.19	Arginine and Proline Metabolism	NaN
+ARGDCpp	4.1.1.19	Arginine and Proline Metabolism	NaN
+ARGSL	4.3.2.1	Arginine and Proline Metabolism	NaN
+ARGSS	6.3.4.5	Arginine and Proline Metabolism	NaN
+ARGTRS	6.1.1.19	tRNA Charging	NaN
+ASAD	1.2.1.11	Threonine and Lysine Metabolism	NaN
+ASNN	3.5.1.1	Alanine and Aspartate Metabolism	NaN
+ASNNpp	3.5.1.1	Alanine and Aspartate Metabolism	NaN
+ASNS1	6.3.5.4	Alanine and Aspartate Metabolism	NaN
+ASNS2	6.3.1.1	Alanine and Aspartate Metabolism	NaN
+ASNTRS	6.1.1.22	tRNA Charging	NaN
+ASP1DC	4.1.1.11	Cofactor and Prosthetic Group Biosynthesis	NaN
+ASPCT	2.1.3.2	Purine and Pyrimidine Biosynthesis	NaN
+ASPK	2.7.2.4	Threonine and Lysine Metabolism	NaN
+ASPO3	1.4.3.16	Cofactor and Prosthetic Group Biosynthesis	NaN
+ASPO4	1.4.3.16	Cofactor and Prosthetic Group Biosynthesis	NaN
+ASPO5	1.4.3.16	Cofactor and Prosthetic Group Biosynthesis	NaN
+ASPT	4.3.1.1	Alanine and Aspartate Metabolism	NaN
+ASPTA	2.6.1.1	Alanine and Aspartate Metabolism	NaN
+ASPTRS	6.1.1.12	tRNA Charging	NaN
+AST	2.3.1.109	Arginine and Proline Metabolism	NaN
+ATPPRT	2.4.2.17	Histidine Metabolism	NaN
+ATPS4rpp	3.6.3.14	Oxidative Phosphorylation	NaN
+BETALDHx	1.2.1.8	Unassigned	NaN
+BETALDHy	1.2.1.8	Unassigned	NaN
+BPNT	3.1.3.7	Cysteine Metabolism	NaN
+BTS5	2.8.1.6	Cofactor and Prosthetic Group Biosynthesis	NaN
+BUTCT	2.8.3.8	Alternate Carbon Metabolism	NaN
+CAT	1.11.1.6	Unassigned	NaN
+CBIAT	2.5.1.17	Cofactor and Prosthetic Group Biosynthesis	NaN
+CBLAT	2.5.1.17	Cofactor and Prosthetic Group Biosynthesis	NaN
+CBMKr	2.7.2.2	Unassigned	NaN
+CBPS	6.3.5.5	Arginine and Proline Metabolism	NaN
+CDAPPA120	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA140	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA141	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA160	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA161	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA180	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDAPPA181	3.6.1.26	Glycerophospholipid Metabolism	NaN
+CDGR	1.7.1.13	Cofactor and Prosthetic Group Biosynthesis	NaN
+CFAS160E	2.1.1.79	Glycerophospholipid Metabolism	NaN
+CFAS160G	2.1.1.79	Glycerophospholipid Metabolism	NaN
+CFAS180E	2.1.1.79	Glycerophospholipid Metabolism	NaN
+CFAS180G	2.1.1.79	Glycerophospholipid Metabolism	NaN
+CHOLD	1.1.99.1	Unassigned	NaN
+CHORM	5.4.99.5	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+CHORS	4.2.3.5	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+CHRPL	4.1.3.40	Cofactor and Prosthetic Group Biosynthesis	NaN
+CITL	4.1.3.6	Citric Acid Cycle	NaN
+CMPN	3.2.2.10	Nucleotide Salvage Pathway	NaN
+CPPPGO	1.3.3.3	Cofactor and Prosthetic Group Biosynthesis	1
+CSND	3.5.4.1	Nucleotide Salvage Pathway	NaN
+CTECOAI6	5.3.3.8	Membrane Lipid Metabolism	NaN
+CTECOAI7	5.3.3.8	Membrane Lipid Metabolism	NaN
+CTECOAI8	5.3.3.8	Membrane Lipid Metabolism	NaN
+CTPS2	6.3.4.2	Purine and Pyrimidine Biosynthesis	NaN
+CYANST	2.8.1.1	Unassigned	NaN
+CYANSTpp	2.8.1.1	Inorganic Ion Transport and Metabolism	NaN
+CYSDDS	4.4.1.15	Cysteine Metabolism	NaN
+CYSDS	4.1.99.1	Cysteine Metabolism	NaN
+CYSS	2.5.1.47	Cysteine Metabolism	NaN
+CYSSADS	4.1.1.12	Cysteine Metabolism	NaN
+CYSTL	4.4.1.8	Methionine Metabolism	NaN
+CYSTRS	6.1.1.16	tRNA Charging	NaN
+CYTD	3.5.4.5	Nucleotide Salvage Pathway	NaN
+CYTDH	3.2.2.8	Alternate Carbon Metabolism	NaN
+CYTK1	2.7.4.14	Nucleotide Salvage Pathway	NaN
+CYTK2	2.7.4.14	Nucleotide Salvage Pathway	NaN
+DAAD	1.4.99.1	Alanine and Aspartate Metabolism	NaN
+DADK	2.7.4.11	Nucleotide Salvage Pathway	NaN
+DAGK120	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK140	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK141	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK160	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK161	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK180	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAGK181	2.7.1.107	Glycerophospholipid Metabolism	NaN
+DAPAL	4.3.1.15	Alternate Carbon Metabolism	NaN
+DAPDC	4.1.1.20	Threonine and Lysine Metabolism	NaN
+DAPE	5.1.1.7	Threonine and Lysine Metabolism	NaN
+DASYN120	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN140	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN141	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN160	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN161	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN180	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DASYN181	2.7.7.41	Glycerophospholipid Metabolism	NaN
+DBTS	6.3.3.3	Cofactor and Prosthetic Group Biosynthesis	1
+DCTPD	3.5.4.13	Nucleotide Salvage Pathway	NaN
+DCYTD	3.5.4.14	Nucleotide Salvage Pathway	NaN
+DDGALK	2.7.1.58	Alternate Carbon Metabolism	NaN
+DDGLK	2.7.1.45	Alternate Carbon Metabolism	NaN
+DDPA	2.5.1.54	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+DDPGALA	4.1.2.21	Alternate Carbon Metabolism	NaN
+DGK1	2.7.4.8	Nucleotide Salvage Pathway	NaN
+DHAD1	4.2.1.9	Valine, Leucine, and Isoleucine Metabolism	NaN
+DHBD	1.3.1.28	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHBS	2.7.7.58	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHDPRy	1.3.1.26	Threonine and Lysine Metabolism	NaN
+DHDPS	4.2.1.52	Threonine and Lysine Metabolism	NaN
+DHFR	1.5.1.3	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHFS	6.3.2.12	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHNPA2r	4.1.2.25	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHORD2	1.3.5.2	Purine and Pyrimidine Biosynthesis	NaN
+DHORD5	1.3.5.2	Purine and Pyrimidine Biosynthesis	NaN
+DHORTS	3.5.2.3	Purine and Pyrimidine Biosynthesis	NaN
+DHPPDA2	3.5.4.26	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHPS2	2.5.1.15	Cofactor and Prosthetic Group Biosynthesis	NaN
+DHQS	4.2.3.4	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+DHQTi	4.2.1.10	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+DMATT	2.5.1.1	Cofactor and Prosthetic Group Biosynthesis	NaN
+DPCOAK	2.7.1.24	Cofactor and Prosthetic Group Biosynthesis	NaN
+DPR	1.1.1.169	Cofactor and Prosthetic Group Biosynthesis	NaN
+DRPA	4.1.2.4	Alternate Carbon Metabolism	NaN
+DTARTD	4.2.1.81	Alternate Carbon Metabolism	NaN
+DTMPK	2.7.4.9	Nucleotide Salvage Pathway	NaN
+DURADx	1.3.1.1	Nucleotide Salvage Pathway	NaN
+DUTPDP	3.6.1.23	Nucleotide Salvage Pathway	NaN
+DXPRIi	1.1.1.267	Cofactor and Prosthetic Group Biosynthesis	NaN
+E4PD	1.2.1.72	Cofactor and Prosthetic Group Biosynthesis	NaN
+EAR100x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR100y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR120x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR120y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR121x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR121y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR140x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR140y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR141x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR141y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR160x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR160y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR161x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR161y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR180x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR180y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR181x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR181y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR40x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR40y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR60x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR60y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+EAR80x	1.3.1.9	Cell Envelope Biosynthesis	NaN
+EAR80y	1.3.1.10	Cell Envelope Biosynthesis	NaN
+ECOAH1	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH2	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH3	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH4	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH5	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH6	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH7	4.2.1.17	Membrane Lipid Metabolism	NaN
+ECOAH8	4.2.1.17	Membrane Lipid Metabolism	NaN
+EDA	4.1.2.14	Pentose Phosphate Pathway	NaN
+EDD	4.2.1.12	Pentose Phosphate Pathway	NaN
+EGMEACPR	1.3.1.10	Cofactor and Prosthetic Group Biosynthesis	NaN
+ENO	4.2.1.11	Glycolysis/Gluconeogenesis	NaN
+EPMEACPR	1.3.1.10	Cofactor and Prosthetic Group Biosynthesis	NaN
+ETHAAL	4.3.1.7	Cell Envelope Biosynthesis	NaN
+FA100ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA120ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA140ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA141ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA160ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA161ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FA80ACPHi	3.1.2.14	Cell Envelope Biosynthesis	NaN
+FACOAL100t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL120t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL140t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL141t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL160t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL161t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL180t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL181t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL60t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FACOAL80t2pp	6.2.1.3	Cell Envelope Biosynthesis	NaN
+FALDH2	1.1.1.284		NaN
+FBA	4.1.2.13	Glycolysis/Gluconeogenesis	NaN
+FBA3	4.1.2.13	Pentose Phosphate Pathway	NaN
+FBP	3.1.3.11	Glycolysis/Gluconeogenesis	NaN
+FCI	5.3.1.25	Alternate Carbon Metabolism	NaN
+FCLK	2.7.1.51	Alternate Carbon Metabolism	NaN
+FCLPA	4.1.2.17	Alternate Carbon Metabolism	NaN
+FCLT	4.99.1.1	Cofactor and Prosthetic Group Biosynthesis	NaN
+FDH4pp	1.2.2.1	Oxidative Phosphorylation	NaN
+FDH5pp	1.2.2.1	Oxidative Phosphorylation	NaN
+FEROpp	1.16.3.1	Inorganic Ion Transport and Metabolism	NaN
+FFSD	3.2.1.26	Alternate Carbon Metabolism	NaN
+FLDR2	1.18.1.2	Unassigned	NaN
+FLVR	1.5.1.30	Cofactor and Prosthetic Group Biosynthesis	NaN
+FLVRx	1.5.1.30	Cofactor and Prosthetic Group Biosynthesis	NaN
+FMETTRS	2.1.2.9	tRNA Charging	NaN
+FMNAT	2.7.7.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+FMNRx	1.5.1.39	Cofactor and Prosthetic Group Biosynthesis	NaN
+FMNRx2	1.5.1.39	Cofactor and Prosthetic Group Biosynthesis	NaN
+FOMETRi	2.1.2.10	Folate Metabolism	NaN
+FRD2	1.3.5.4	Citric Acid Cycle	NaN
+FRD3	1.3.5.4	Citric Acid Cycle	NaN
+FRUK	2.7.1.56	Alternate Carbon Metabolism	NaN
+FTHFD	3.5.1.10	Folate Metabolism	NaN
+FTHFLi	6.3.4.3	Folate Metabolism	NaN
+FUM	4.2.1.2	Citric Acid Cycle	NaN
+G1PACT	2.3.1.157	Cell Envelope Biosynthesis	NaN
+G1PPpp	3.1.3.10	Glycolysis/Gluconeogenesis	NaN
+G1PTT	2.7.7.24	Cell Envelope Biosynthesis	NaN
+G1SAT	5.4.3.8	Cofactor and Prosthetic Group Biosynthesis	NaN
+G3PAT120	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT140	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT141	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT160	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT161	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT180	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PAT181	2.3.1.15	Glycerophospholipid Metabolism	NaN
+G3PD2	1.1.1.94	Alternate Carbon Metabolism	NaN
+G3PD5	1.1.5.3	Oxidative Phosphorylation	NaN
+G3PD6	1.1.5.3	Oxidative Phosphorylation	NaN
+G3PD7	1.1.5.3	Oxidative Phosphorylation	NaN
+G5SD	1.2.1.41	Arginine and Proline Metabolism	NaN
+G6PDA	3.5.99.6	Alternate Carbon Metabolism	NaN
+G6PDH2r	1.1.1.49	Pentose Phosphate Pathway	NaN
+G6PP	3.1.3.9	Glycolysis/Gluconeogenesis	NaN
+GAL1PPpp	3.1.3.10	Alternate Carbon Metabolism	NaN
+GALCTD	4.2.1.42	Alternate Carbon Metabolism	NaN
+GALCTND	4.2.1.6	Alternate Carbon Metabolism	NaN
+GALKr	2.7.1.6	Alternate Carbon Metabolism	NaN
+GALM2pp	5.1.3.3	Alternate Carbon Metabolism	NaN
+GALS3	3.2.1.22	Alternate Carbon Metabolism	NaN
+GALUi	2.7.7.9	Cell Envelope Biosynthesis	NaN
+GAPD	1.2.1.12	Glycolysis/Gluconeogenesis	NaN
+GARFT	2.1.2.2	Purine and Pyrimidine Biosynthesis	NaN
+GCALDD	1.2.1.21	Folate Metabolism	NaN
+GDPTPDP	3.1.7.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+GF6PTA	2.6.1.16	Cell Envelope Biosynthesis	NaN
+GGPTRCS	6.3.1.11	Alternate Carbon Metabolism	NaN
+GHMT2r	2.1.2.1	Glycine and Serine Metabolism	NaN
+GK1	2.7.4.8	Nucleotide Salvage Pathway	NaN
+GLBRAN2	2.4.1.18	Glycolysis/Gluconeogenesis	NaN
+GLCATr	2.3.1.79	Alternate Carbon Metabolism	NaN
+GLCDpp	1.1.5.2	Oxidative Phosphorylation	NaN
+GLCP	2.4.1.1	Glycolysis/Gluconeogenesis	NaN
+GLCP2	2.4.1.1	Glycolysis/Gluconeogenesis	NaN
+GLCRAL	4.1.2.20	Alternate Carbon Metabolism	NaN
+GLCRD	4.2.1.40	Alternate Carbon Metabolism	NaN
+GLCS1	2.4.1.21	Glycolysis/Gluconeogenesis	NaN
+GLGC	2.7.7.27	Glycolysis/Gluconeogenesis	NaN
+GLNS	6.3.1.2	Glutamate Metabolism	NaN
+GLNTRS	6.1.1.18	tRNA Charging	NaN
+GLU5K	2.7.2.11	Arginine and Proline Metabolism	NaN
+GLUCYS	6.3.2.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+GLUDC	4.1.1.15	Glutamate Metabolism	NaN
+GLUDy	1.4.1.4	Glutamate Metabolism	NaN
+GLUN	3.5.1.2	Glutamate Metabolism	NaN
+GLUNpp	3.5.1.2	Glutamate Metabolism	NaN
+GLUPRT	2.4.2.14	Purine and Pyrimidine Biosynthesis	NaN
+GLUR	5.1.1.3	Cell Envelope Biosynthesis	NaN
+GLUSy	1.4.1.13	Glutamate Metabolism	NaN
+GLUTRR	1.2.1.70	Cofactor and Prosthetic Group Biosynthesis	NaN
+GLUTRS	6.1.1.17	Cofactor and Prosthetic Group Biosynthesis	NaN
+GLXCL	4.1.1.47	Glyoxylate Metabolism	NaN
+GLYAT	2.3.1.29	Glycine and Serine Metabolism	NaN
+GLYCDx	1.1.1.6	Alternate Carbon Metabolism	NaN
+GLYCK	2.7.1.31	Glyoxylate Metabolism	NaN
+GLYCK2	2.7.1.31	Glycine and Serine Metabolism	NaN
+GLYCLTDy	1.1.1.26	Glyoxylate Metabolism	NaN
+GLYK	2.7.1.30	Alternate Carbon Metabolism	NaN
+GLYOX	3.1.2.6	Methylglyoxal Metabolism	NaN
+GLYTRS	6.1.1.14	tRNA Charging	NaN
+GMAND	4.2.1.47	Cell Envelope Biosynthesis	NaN
+GMPR	1.7.1.7	Purine and Pyrimidine Biosynthesis	NaN
+GMPS2	6.3.5.2	Purine and Pyrimidine Biosynthesis	NaN
+GND	1.1.1.44	Pentose Phosphate Pathway	NaN
+GNK	2.7.1.12	Alternate Carbon Metabolism	NaN
+GPDDA1	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA1pp	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA2	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA2pp	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA3	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA3pp	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA4	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA4pp	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA5	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GPDDA5pp	3.1.4.46	Glycerophospholipid Metabolism	NaN
+GRTT	2.5.1.10	Cofactor and Prosthetic Group Biosynthesis	NaN
+GRXR	1.8.4.2	Unassigned	NaN
+GSPMDA	3.5.1.78	Arginine and Proline Metabolism	NaN
+GSPMDS	6.3.1.8	Arginine and Proline Metabolism	NaN
+GTHOr	1.8.1.7	Cofactor and Prosthetic Group Biosynthesis	NaN
+GTHPi	1.11.1.9	Unassigned	NaN
+GTHS	6.3.2.3	Cofactor and Prosthetic Group Biosynthesis	NaN
+GTPCI	3.5.4.16	Cofactor and Prosthetic Group Biosynthesis	NaN
+GTPCII2	3.5.4.25	Cofactor and Prosthetic Group Biosynthesis	NaN
+GTPDPDP	3.6.1.40	Cofactor and Prosthetic Group Biosynthesis	NaN
+GTPDPK	2.7.6.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+GUACYC	4.6.1.2	Nucleotide Salvage Pathway	NaN
+GUAD	3.5.4.3	Nucleotide Salvage Pathway	NaN
+GUAPRT	2.4.2.8	Nucleotide Salvage Pathway	NaN
+GUI1	5.3.1.12	Alternate Carbon Metabolism	NaN
+GUI2	5.3.1.12	Alternate Carbon Metabolism	NaN
+HACD1	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD2	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD3	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD4	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD5	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD6	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD7	1.1.1.35	Membrane Lipid Metabolism	NaN
+HACD8	1.1.1.35	Membrane Lipid Metabolism	NaN
+HCO3E	4.2.1.1	Unassigned	NaN
+HCYSMT	2.1.1.10	Methionine Metabolism	NaN
+HETZK	2.7.1.50	Cofactor and Prosthetic Group Biosynthesis	NaN
+HEX1	2.7.1.2	Glycolysis/Gluconeogenesis	NaN
+HEX4	2.7.1.7	Alternate Carbon Metabolism	NaN
+HEX7	2.7.1.1	Alternate Carbon Metabolism	NaN
+HISTD	1.1.1.23	Histidine Metabolism	NaN
+HISTP	3.1.3.15	Histidine Metabolism	NaN
+HISTRS	6.1.1.21	tRNA Charging	NaN
+HMBS	4.3.1.8	Cofactor and Prosthetic Group Biosynthesis	NaN
+HMPK1	2.7.1.49	Cofactor and Prosthetic Group Biosynthesis	NaN
+HPPK2	2.7.6.3	Cofactor and Prosthetic Group Biosynthesis	NaN
+HPPPNDO	1.13.11.16	Alternate Carbon Metabolism	NaN
+HPYRI	5.3.1.22	Alternate Carbon Metabolism	NaN
+HSDy	1.1.1.3	Threonine and Lysine Metabolism	NaN
+HSK	2.7.1.39	Threonine and Lysine Metabolism	NaN
+HSST	2.3.1.46	Methionine Metabolism	NaN
+HSTPT	2.6.1.9	Histidine Metabolism	NaN
+HXCT	2.8.3.8	Alternate Carbon Metabolism	NaN
+HXPRT	2.4.2.8	Nucleotide Salvage Pathway	NaN
+HYD1pp	1.18.99.1	Oxidative Phosphorylation	NaN
+HYD2pp	1.18.99.1	Oxidative Phosphorylation	NaN
+HYD3pp	1.18.99.1	Oxidative Phosphorylation	NaN
+ICDHyr	1.1.1.42	Citric Acid Cycle	NaN
+ICHORS	5.4.99.6	Cofactor and Prosthetic Group Biosynthesis	NaN
+ICHORSi	5.4.4.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+ICHORT	3.3.2.1	Cofactor and Prosthetic Group Biosynthesis	NaN
+ICL	4.1.3.1	Anaplerotic Reactions	NaN
+IGPDH	4.2.1.19	Histidine Metabolism	NaN
+IGPS	4.1.1.48	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+ILETA	2.6.1.42	Valine, Leucine, and Isoleucine Metabolism	NaN
+ILETRS	6.1.1.5	tRNA Charging	NaN
+IMPC	3.5.4.10	Purine and Pyrimidine Biosynthesis	NaN
+IMPD	1.1.1.205	Purine and Pyrimidine Biosynthesis	NaN
+INSH	3.2.2.8	Nucleotide Salvage Pathway	NaN
+INSK	2.7.1.73	Nucleotide Salvage Pathway	NaN
+IPDDI	5.3.3.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+IPMD	1.1.1.85	Valine, Leucine, and Isoleucine Metabolism	NaN
+IPPMIa	4.2.1.33	Valine, Leucine, and Isoleucine Metabolism	NaN
+IPPMIb	4.2.1.33	Valine, Leucine, and Isoleucine Metabolism	NaN
+IPPS	4.1.3.12	Valine, Leucine, and Isoleucine Metabolism	NaN
+KARA1	1.1.1.86	Valine, Leucine, and Isoleucine Metabolism	NaN
+KARA2	1.1.1.86	Valine, Leucine, and Isoleucine Metabolism	NaN
+KAS14	2.3.1.41	Membrane Lipid Metabolism	NaN
+KDOCT2	2.7.7.38	Lipopolysaccharide Biosynthesis / Recycling	NaN
+KDOPP	3.1.3.45	Lipopolysaccharide Biosynthesis / Recycling	NaN
+KDOPS	2.5.1.55	Lipopolysaccharide Biosynthesis / Recycling	NaN
+KG6PDC	4.1.1.85	Alternate Carbon Metabolism	NaN
+L_LACD2	1.1.2.3	Oxidative Phosphorylation	NaN
+L_LACD3	1.1.2.3	Oxidative Phosphorylation	NaN
+LACZ	3.2.1.23	Alternate Carbon Metabolism	NaN
+LACZpp	3.2.1.108	Alternate Carbon Metabolism	NaN
+LALDO2x	1.1.1.21	Methylglyoxal Metabolism	NaN
+LALDO3	1.1.1.21	Methylglyoxal Metabolism	NaN
+LCADi	1.2.1.21	Alternate Carbon Metabolism	NaN
+LCARR	1.1.1.77	Methylglyoxal Metabolism	NaN
+LCARS	1.1.1.77	Alternate Carbon Metabolism	NaN
+LDH_D	1.1.1.28	Pyruvate Metabolism	NaN
+LDH_D2	1.1.2.4	Oxidative Phosphorylation	NaN
+LEUTAi	2.6.1.42	Valine, Leucine, and Isoleucine Metabolism	NaN
+LEUTRS	6.1.1.4	tRNA Charging	NaN
+LGTHL	4.4.1.5	Methylglyoxal Metabolism	NaN
+LIPOCT	2.3.1.181	Cofactor and Prosthetic Group Biosynthesis	NaN
+LPADSS	2.4.1.182	Lipopolysaccharide Biosynthesis / Recycling	NaN
+LPLIPAL1A120pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A140pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A141pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A160pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A161pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A180pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1A181pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E120pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E140pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E141pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E160pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E161pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E180pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1E181pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G120pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G140pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G141pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G160pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G161pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G180pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL1G181pp	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A120	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A140	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A141	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A160	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A161	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A180	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2A181	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E120	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E140	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E141	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E160	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E161	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E180	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2E181	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G120	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G140	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G141	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G160	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G161	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G180	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LPLIPAL2G181	3.1.1.5	Glycerophospholipid Metabolism	NaN
+LSERDHr	1.1.1.298	Glycine and Serine Metabolism	NaN
+LYSDC	4.1.1.18	Threonine and Lysine Metabolism	NaN
+LYSTRS	6.1.1.6	tRNA Charging	NaN
+M1PD	1.1.1.17	Alternate Carbon Metabolism	NaN
+MALDDH	1.1.1.83	Alternate Carbon Metabolism	NaN
+MALS	2.3.3.9	Anaplerotic Reactions	NaN
+MALTATr	2.3.1.79	Alternate Carbon Metabolism	NaN
+MAN1PT2	2.7.7.22	Cell Envelope Biosynthesis	NaN
+MAN6PI	5.3.1.8	Alternate Carbon Metabolism	NaN
+MANAO	1.1.1.57	Alternate Carbon Metabolism	NaN
+MCITD	4.2.1.79	Alternate Carbon Metabolism	NaN
+MCITL2	4.1.3.30	Alternate Carbon Metabolism	NaN
+MCITS	2.3.3.5	Alternate Carbon Metabolism	NaN
+MCOATA	2.3.1.39	Membrane Lipid Metabolism	NaN
+MCPST	2.8.1.2	Cysteine Metabolism	NaN
+MDDCP1pp	3.4.16.4	Murein Biosynthesis	NaN
+MDDCP2pp	3.4.16.4	Murein Biosynthesis	NaN
+MDDCP3pp	3.4.16.4	Murein Biosynthesis	NaN
+MDDCP4pp	3.4.16.4	Murein Biosynthesis	NaN
+MDDCP5pp	3.4.16.4	Murein Biosynthesis	NaN
+MDH	1.1.1.37	Citric Acid Cycle	NaN
+MDH2	1.1.99.16	Citric Acid Cycle	NaN
+MDH3	1.1.99.16	Citric Acid Cycle	NaN
+ME1	1.1.1.38	Anaplerotic Reactions	NaN
+ME2	1.1.1.40	Anaplerotic Reactions	NaN
+MEPCT	2.7.7.60	Cofactor and Prosthetic Group Biosynthesis	NaN
+METAT	2.5.1.6	Methionine Metabolism	NaN
+METS	2.1.1.13	Methionine Metabolism	NaN
+METSOXR1	1.8.4.5	Methionine Metabolism	NaN
+METTRS	6.1.1.10	tRNA Charging	NaN
+MGSA	4.2.3.3	Methylglyoxal Metabolism	NaN
+MI1PP	3.1.3.25	Cell Envelope Biosynthesis	NaN
+MICITDr	4.2.1.99	Alternate Carbon Metabolism	NaN
+MLDCP1App	3.4.17.13	Murein Biosynthesis	NaN
+MLDCP1Bpp	3.4.17.13	Murein Biosynthesis	NaN
+MLDCP2App	3.4.17.13	Murein Biosynthesis	NaN
+MLDCP2Bpp	3.4.17.13	Murein Biosynthesis	NaN
+MLDCP3App	3.4.17.13	Murein Biosynthesis	NaN
+MMCD	4.1.1.41	Alternate Carbon Metabolism	NaN
+MMM	5.4.99.2	Alternate Carbon Metabolism	NaN
+MNNH	4.2.1.8	Alternate Carbon Metabolism	NaN
+MOHMT	2.1.2.11	Cofactor and Prosthetic Group Biosynthesis	NaN
+MOX	1.1.3.3	Citric Acid Cycle	NaN
+MSAR	1.1.1.298	Nucleotide Salvage Pathway	NaN
+MTAN	3.2.2.16	Arginine and Proline Metabolism	NaN
+MTHFC	3.5.4.9	Folate Metabolism	NaN
+MTHFD	1.5.1.5	Folate Metabolism	NaN
+MTHFR2	1.5.1.20	Folate Metabolism	NaN
+MTRPOX	1.5.3.2	Glycine and Serine Metabolism	NaN
+NADDP	3.6.1.22	Cofactor and Prosthetic Group Biosynthesis	NaN
+NADH10	1.6.5.3	Oxidative Phosphorylation	NaN
+NADH16pp	1.6.5.3	Oxidative Phosphorylation	NaN
+NADH17pp	1.6.5.3	Oxidative Phosphorylation	NaN
+NADH18pp	1.6.5.3	Oxidative Phosphorylation	NaN
+NADH5	1.6.5.3	Oxidative Phosphorylation	NaN
+NADH9	1.6.5.3	Oxidative Phosphorylation	NaN
+NADK	2.7.1.23	Cofactor and Prosthetic Group Biosynthesis	NaN
+NADN	3.2.2.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+NADPHQR2	1.6.99.6	Oxidative Phosphorylation	NaN
+NADPHQR3	1.6.99.6	Oxidative Phosphorylation	NaN
+NADPHQR4	1.6.99.6	Oxidative Phosphorylation	NaN
+NADS1	6.3.1.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+NAMNPP	2.4.2.11	Cofactor and Prosthetic Group Biosynthesis	NaN
+NDPK1	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK2	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK3	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK4	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK5	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK6	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK7	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NDPK8	2.7.4.6	Nucleotide Salvage Pathway	NaN
+NHFRBO	2.7.1.5	Nitrogen Metabolism	NaN
+NMNAT	2.7.7.1	Cofactor and Prosthetic Group Biosynthesis	NaN
+NMNDA	3.5.1.42	Cofactor and Prosthetic Group Biosynthesis	NaN
+NMNN	3.2.2.14	Cofactor and Prosthetic Group Biosynthesis	NaN
+NMNt7pp	3.2.2.14	Transport, Inner Membrane	NaN
+NNAM	3.5.1.19	Cofactor and Prosthetic Group Biosynthesis	NaN
+NNATr	2.7.7.18	Nucleotide Salvage Pathway	NaN
+NNDPR	2.4.2.19	Cofactor and Prosthetic Group Biosynthesis	NaN
+NO3R1bpp	1.7.99.4	Nitrogen Metabolism	NaN
+NO3R1pp	1.7.99.4	Oxidative Phosphorylation	NaN
+NO3R2bpp	1.7.99.4	Nitrogen Metabolism	NaN
+NODOx	1.14.12.17	Nitrogen Metabolism	NaN
+NODOy	1.14.12.17	Nitrogen Metabolism	NaN
+NTD1	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD10	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD10pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD11	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD11pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD12	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD12pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD1pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD2	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD2pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD3	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD3pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD4	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD4pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD5	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD5pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD6	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD6pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD7	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD7pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD8	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD8pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD9	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTD9pp	3.1.3.5	Nucleotide Salvage Pathway	NaN
+NTP1	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP10	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP11	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP12	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP3	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP3pp	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTP5	3.6.1.15	Nucleotide Salvage Pathway	NaN
+NTPP10	3.6.1.19	Nucleotide Salvage Pathway	NaN
+NTPP11	3.6.1.19	Nucleotide Salvage Pathway	NaN
+NTPP9	3.6.1.19	Nucleotide Salvage Pathway	NaN
+NTPTP1	3.1.5.1	Nucleotide Salvage Pathway	NaN
+NTPTP2	3.1.5.1	Nucleotide Salvage Pathway	NaN
+OAADC	4.1.1.3	Pyruvate Metabolism	NaN
+OBTFL	2.3.1.54	Alternate Carbon Metabolism	NaN
+OCBT	2.1.3.3	Arginine and Proline Metabolism	NaN
+OGMEACPD	4.2.1.59	Cofactor and Prosthetic Group Biosynthesis	NaN
+OGMEACPR	1.1.1.100	Cofactor and Prosthetic Group Biosynthesis	NaN
+OHPBAT	2.6.1.52	Cofactor and Prosthetic Group Biosynthesis	NaN
+OMPDC	4.1.1.23	Purine and Pyrimidine Biosynthesis	NaN
+OP4ENH	4.2.1.80	Alternate Carbon Metabolism	NaN
+OPMEACPD	4.2.1.59	Cofactor and Prosthetic Group Biosynthesis	NaN
+OPMEACPR	1.1.1.100	Cofactor and Prosthetic Group Biosynthesis	NaN
+OPMEACPS	2.3.1.41	Cofactor and Prosthetic Group Biosynthesis	NaN
+ORNDC	4.1.1.17	Arginine and Proline Metabolism	NaN
+ORPT	2.4.2.10	Purine and Pyrimidine Biosynthesis	NaN
+OXAMTC	2.1.3.5	Unassigned	NaN
+OXCDC	4.1.1.8	Alternate Carbon Metabolism	NaN
+P5CD	1.5.1.12	Arginine and Proline Metabolism	NaN
+P5CR	1.5.1.2	Arginine and Proline Metabolism	NaN
+PACCOAL	6.2.1.30	Alternate Carbon Metabolism	NaN
+PANTS	6.3.2.1	Cofactor and Prosthetic Group Biosynthesis	NaN
+PAPA120	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA120pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA140	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA140pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA141	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA141pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA160	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA160pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA161	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA161pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA180	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA180pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA181	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPA181pp	3.1.3.4	Glycerophospholipid Metabolism	NaN
+PAPPT3	2.7.8.13	Cell Envelope Biosynthesis	NaN
+PAPSR	1.8.4.8	Cysteine Metabolism	NaN
+PAPSR2	1.8.4.8	Cysteine Metabolism	NaN
+PDE1	3.1.4.17	Nucleotide Salvage Pathway	NaN
+PDE4	3.1.4.17	Nucleotide Salvage Pathway	NaN
+PDH	1.2.4.1	Glycolysis/Gluconeogenesis	NaN
+PDX5POi	1.4.3.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+PEAMNOpp	1.4.3.21	Nitrogen Metabolism	NaN
+PFK	2.7.1.11	Glycolysis/Gluconeogenesis	NaN
+PFK_2	2.7.1.11	Alternate Carbon Metabolism	NaN
+PFK_3	2.7.1.11	Pentose Phosphate Pathway	NaN
+PFL	2.3.1.54	Pyruvate Metabolism	NaN
+PGAMT	5.4.2.10	Cell Envelope Biosynthesis	NaN
+PGCD	1.1.1.95	Glycine and Serine Metabolism	NaN
+PGI	5.3.1.9	Glycolysis/Gluconeogenesis	NaN
+PGK	2.7.2.3	Glycolysis/Gluconeogenesis	NaN
+PGL	3.1.1.31	Pentose Phosphate Pathway	NaN
+PGLYCP	3.1.3.18	Alternate Carbon Metabolism	NaN
+PGM	5.4.2.1	Glycolysis/Gluconeogenesis	NaN
+PGMT	5.4.2.2	Alternate Carbon Metabolism	NaN
+PGPP120	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP120pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP140	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP140pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP141	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP141pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP160	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP160pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP161	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP161pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP180	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP180pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP181	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGPP181pp	3.1.3.27	Glycerophospholipid Metabolism	NaN
+PGSA120	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA140	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA141	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA160	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA161	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA180	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PGSA181	2.7.8.5	Glycerophospholipid Metabolism	NaN
+PHETA1	2.6.1.58	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+PHETRS	6.1.1.20	tRNA Charging	NaN
+PLIPA1A120pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A140pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A141pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A160pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A161pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A180pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1A181pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E120pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E140pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E141pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E160pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E161pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E180pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1E181pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G120pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G140pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G141pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G160pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G161pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G180pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA1G181pp	3.1.1.32	Glycerophospholipid Metabolism	NaN
+PLIPA2A120pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A140pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A141pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A160pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A161pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A180pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2A181pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E120pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E140pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E141pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E160pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E161pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E180pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2E181pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G120pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G140pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G141pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G160pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G161pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G180pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PLIPA2G181pp	3.1.1.4	Glycerophospholipid Metabolism	NaN
+PMANM	5.4.2.8	Alternate Carbon Metabolism	NaN
+PMPK	2.7.4.7	Cofactor and Prosthetic Group Biosynthesis	NaN
+PNTK	2.7.1.33	Cofactor and Prosthetic Group Biosynthesis	NaN
+POR5	1.2.7.1	Pyruvate Metabolism	NaN
+POX	1.2.2.2	Oxidative Phosphorylation	1
+PPA	3.6.1.1	Anaplerotic Reactions	NaN
+PPA2	3.6.1.1	Anaplerotic Reactions	NaN
+PPAKr	2.7.2.1	Alternate Carbon Metabolism	NaN
+PPBNGS	4.2.1.24	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPC	4.1.1.31	Anaplerotic Reactions	NaN
+PPCDC	4.1.1.36	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPCK	4.1.1.49	Anaplerotic Reactions	NaN
+PPGPPDP	3.1.7.2	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPK2r	2.7.4.1	Oxidative Phosphorylation	NaN
+PPKr	2.7.4.1	Oxidative Phosphorylation	NaN
+PPM	5.4.2.7	Alternate Carbon Metabolism	NaN
+PPM2	5.4.2.7	Alternate Carbon Metabolism	NaN
+PPNCL2	6.3.2.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPND	1.3.1.12	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+PPNDH	4.2.1.51	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+PPPGO	1.3.3.4	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPPGO3	1.3.3.4	Cofactor and Prosthetic Group Biosynthesis	NaN
+PPS	2.7.9.2	Glycolysis/Gluconeogenesis	NaN
+PRAGSr	6.3.4.13	Purine and Pyrimidine Biosynthesis	NaN
+PRAIS	6.3.3.1	Purine and Pyrimidine Biosynthesis	NaN
+PRAIi	5.3.1.24	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+PRAMPC	3.5.4.19	Histidine Metabolism	NaN
+PRASCSi	6.3.2.6	Purine and Pyrimidine Biosynthesis	NaN
+PRATPP	3.6.1.31	Histidine Metabolism	NaN
+PRFGS	6.3.5.3	Purine and Pyrimidine Biosynthesis	NaN
+PRMICI	5.3.1.16	Histidine Metabolism	NaN
+PROD2	1.5.99.8	Arginine and Proline Metabolism	NaN
+PROTRS	6.1.1.15	tRNA Charging	NaN
+PRPPS	2.7.6.1	Histidine Metabolism	NaN
+PSCVT	2.5.1.19	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+PSD120	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD140	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD141	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD160	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD161	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD180	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSD181	4.1.1.65	Glycerophospholipid Metabolism	NaN
+PSERT	2.6.1.52	Glycine and Serine Metabolism	NaN
+PSP_L	3.1.3.3	Glycine and Serine Metabolism	NaN
+PSSA120	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA140	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA141	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA160	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA161	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA180	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PSSA181	2.7.8.8	Glycerophospholipid Metabolism	NaN
+PTAr	2.3.1.8	Pyruvate Metabolism	NaN
+PTPATi	2.7.7.3	Cofactor and Prosthetic Group Biosynthesis	NaN
+PTRCTA	2.6.1.29	Arginine and Proline Metabolism	NaN
+PUNP1	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP2	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP3	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP4	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP5	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP6	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PUNP7	2.4.2.1	Nucleotide Salvage Pathway	NaN
+PYAM5PO	1.4.3.5	Cofactor and Prosthetic Group Biosynthesis	NaN
+PYDAMK	2.7.1.35	Cofactor and Prosthetic Group Biosynthesis	NaN
+PYDXK	2.7.1.35	Cofactor and Prosthetic Group Biosynthesis	NaN
+PYDXNK	2.7.1.35	Cofactor and Prosthetic Group Biosynthesis	NaN
+PYK	2.7.1.40	Glycolysis/Gluconeogenesis	NaN
+PYNP2r	2.4.2.2	Nucleotide Salvage Pathway	NaN
+QUINDH	1.1.1.282	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+RBFK	2.7.1.26	Cofactor and Prosthetic Group Biosynthesis	NaN
+RBFSa	2.5.1.78	Cofactor and Prosthetic Group Biosynthesis	NaN
+RBFSb	2.5.1.9	Cofactor and Prosthetic Group Biosynthesis	NaN
+RBK	2.7.1.15	Alternate Carbon Metabolism	NaN
+RBK_L1	2.7.1.16	Alternate Carbon Metabolism	NaN
+RBP4E	5.1.3.4	Alternate Carbon Metabolism	NaN
+RHCCE	4.4.1.21	Methionine Metabolism	NaN
+RMI	5.3.1.14	Alternate Carbon Metabolism	NaN
+RMK	2.7.1.5	Alternate Carbon Metabolism	NaN
+RMPA	4.1.2.19	Alternate Carbon Metabolism	NaN
+RNDR1	1.17.4.1	Nucleotide Salvage Pathway	NaN
+RNDR2	1.17.4.1	Nucleotide Salvage Pathway	NaN
+RNDR3	1.17.4.1	Nucleotide Salvage Pathway	NaN
+RNDR4	1.17.4.1	Nucleotide Salvage Pathway	NaN
+RPE	5.1.3.1	Pentose Phosphate Pathway	NaN
+RPI	5.3.1.6	Pentose Phosphate Pathway	NaN
+SADH	2.6.1.69	Arginine and Proline Metabolism	NaN
+SARCOX	1.5.3.1	Glycine and Serine Metabolism	NaN
+SBTPD	1.1.1.140	Alternate Carbon Metabolism	NaN
+SDPDS	3.5.1.18	Threonine and Lysine Metabolism	NaN
+SDPTA	2.6.1.17	Threonine and Lysine Metabolism	NaN
+SELCYSS	2.9.1.1	tRNA Charging	1
+SELNPS	2.7.9.3	Unassigned	NaN
+SEPHCHCS	2.2.1.9	Cofactor and Prosthetic Group Biosynthesis	NaN
+SERAT	2.3.1.30	Cysteine Metabolism	NaN
+SERD_D	4.3.1.18	Glycine and Serine Metabolism	NaN
+SERD_L	4.3.1.17	Glycine and Serine Metabolism	NaN
+SERTRS	6.1.1.11	tRNA Charging	NaN
+SERTRS2	6.1.1.11	tRNA Charging	NaN
+SFGTHi	3.1.2.12	Cofactor and Prosthetic Group Biosynthesis	NaN
+SHK3Dr	1.1.1.25	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+SHKK	2.7.1.71	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+SHSL1	2.5.1.48	Methionine Metabolism	NaN
+SPMDAT1	2.3.1.57	Arginine and Proline Metabolism	NaN
+SPMDAT2	2.3.1.57	Arginine and Proline Metabolism	NaN
+SPMS	2.5.1.16	Arginine and Proline Metabolism	NaN
+SPODM	1.15.1.1	Unassigned	NaN
+SPODMpp	1.15.1.1	Unassigned	NaN
+SSALx	1.2.1.24	Arginine and Proline Metabolism	NaN
+SSALy	1.2.1.16	Arginine and Proline Metabolism	NaN
+SUCBZL	6.2.1.26	Cofactor and Prosthetic Group Biosynthesis	NaN
+SUCDi	1.3.5.1	Oxidative Phosphorylation	NaN
+SUCOAS	6.2.1.5	Citric Acid Cycle	NaN
+SULRi	1.8.1.2	Cysteine Metabolism	NaN
+TAGURr	1.1.1.58	Alternate Carbon Metabolism	NaN
+TALA	2.2.1.2	Pentose Phosphate Pathway	NaN
+TARTD	4.2.1.32	Alternate Carbon Metabolism	NaN
+TAUDO	1.14.11.17	Alternate Carbon Metabolism	NaN
+TDP	3.6.1.15	Cofactor and Prosthetic Group Biosynthesis	NaN
+TDPAGTA	2.6.1.33	Cell Envelope Biosynthesis	NaN
+TDPDRE	5.1.3.13	Cell Envelope Biosynthesis	NaN
+TDPDRR	1.1.1.133	Cell Envelope Biosynthesis	NaN
+TDPGDH	4.2.1.46	Cell Envelope Biosynthesis	NaN
+TDSK	2.7.1.130	Lipopolysaccharide Biosynthesis / Recycling	NaN
+TGBPA	4.1.2.40	Alternate Carbon Metabolism	NaN
+THD2pp	1.6.1.1	Oxidative Phosphorylation	NaN
+THDPS	2.3.1.117	Threonine and Lysine Metabolism	NaN
+THFAT	2.1.2.10	Folate Metabolism	NaN
+THRA2i	4.1.2.5	Threonine and Lysine Metabolism	NaN
+THRAi	4.1.2.5	Threonine and Lysine Metabolism	NaN
+THRD	1.1.1.103	Glycine and Serine Metabolism	NaN
+THRD_L	4.3.1.19	Valine, Leucine, and Isoleucine Metabolism	NaN
+THRS	4.2.3.1	Threonine and Lysine Metabolism	NaN
+THRTRS	6.1.1.3	tRNA Charging	NaN
+TKT1	2.2.1.1	Pentose Phosphate Pathway	NaN
+TKT2	2.2.1.1	Pentose Phosphate Pathway	NaN
+TMDK1	2.7.1.21	Nucleotide Salvage Pathway	NaN
+TMDPP	2.4.2.4	Nucleotide Salvage Pathway	NaN
+TMDS	2.1.1.45	Nucleotide Salvage Pathway	NaN
+TMK	2.7.1.89	Cofactor and Prosthetic Group Biosynthesis	NaN
+TMPK	2.7.4.16	Cofactor and Prosthetic Group Biosynthesis	NaN
+TMPPP	2.5.1.3	Cofactor and Prosthetic Group Biosynthesis	NaN
+TPI	5.3.1.1	Glycolysis/Gluconeogenesis	NaN
+TRDR	1.8.1.9	Oxidative Phosphorylation	NaN
+TRE6PH	3.2.1.93	Alternate Carbon Metabolism	NaN
+TRE6PP	3.1.3.12	Alternate Carbon Metabolism	NaN
+TRE6PS	2.4.1.15	Alternate Carbon Metabolism	NaN
+TREH	3.2.1.28	Alternate Carbon Metabolism	NaN
+TREHpp	3.2.1.28	Alternate Carbon Metabolism	NaN
+TRPAS2	4.1.99.1	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+TRPS1	4.2.1.20	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+TRPS2	4.2.1.20	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+TRPS3	4.2.1.20	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+TRPTRS	6.1.1.2	tRNA Charging	NaN
+TRSARr	1.1.1.60	Alternate Carbon Metabolism	NaN
+TYROXDApp	1.4.3.21	Nitrogen Metabolism	NaN
+TYRTA	2.6.1.5	Tyrosine, Tryptophan, and Phenylalanine Metabolism	NaN
+TYRTRS	6.1.1.1	tRNA Charging	1
+UAAGDS	6.3.2.13	Cell Envelope Biosynthesis	NaN
+UACGALPpp	3.6.1.45	Alternate Carbon Metabolism	NaN
+UACGAMPpp	3.6.1.45	Alternate Carbon Metabolism	NaN
+UAG2E	5.1.3.14	Cell Envelope Biosynthesis	NaN
+UAGAAT	2.3.1.129	Lipopolysaccharide Biosynthesis / Recycling	NaN
+UAGCVT	2.5.1.7	Cell Envelope Biosynthesis	NaN
+UAGDP	2.7.7.23	Cell Envelope Biosynthesis	NaN
+UAMAGS	6.3.2.9	Cell Envelope Biosynthesis	NaN
+UAMAS	6.3.2.8	Cell Envelope Biosynthesis	NaN
+UAPGR	1.1.1.158	Cell Envelope Biosynthesis	NaN
+UDCPDP	3.6.1.27	Cell Envelope Biosynthesis	NaN
+UDCPDPpp	3.6.1.27	Cell Envelope Biosynthesis	NaN
+UDPG4E	5.1.3.2	Alternate Carbon Metabolism	NaN
+UDPGALM	5.4.99.9	Cell Envelope Biosynthesis	NaN
+UDPGALPpp	3.6.1.45	Alternate Carbon Metabolism	NaN
+UDPGD	1.1.1.22	Cell Envelope Biosynthesis	NaN
+UDPGPpp	3.6.1.45	Alternate Carbon Metabolism	NaN
+UGLCURPpp	3.6.1.45	Alternate Carbon Metabolism	NaN
+UGLT	2.7.7.12	Alternate Carbon Metabolism	NaN
+UGLYCH	3.5.3.19	Nitrogen Metabolism	NaN
+UGMDDS	6.3.2.15	Cell Envelope Biosynthesis	NaN
+UMPK	2.7.4.14	Nucleotide Salvage Pathway	NaN
+UPP3MT	2.1.1.107	Cofactor and Prosthetic Group Biosynthesis	NaN
+UPP3S	4.2.1.75	Cofactor and Prosthetic Group Biosynthesis	NaN
+UPPDC1	4.1.1.37	Cofactor and Prosthetic Group Biosynthesis	NaN
+UPPRT	2.4.2.9	Nucleotide Salvage Pathway	NaN
+URDGLYCD	1.1.1.154	Alternate Carbon Metabolism	NaN
+URIC	1.7.3.3	Unassigned	NaN
+URIH	3.2.2.8	Alternate Carbon Metabolism	NaN
+URIK2	2.7.1.48	Nucleotide Salvage Pathway	NaN
+VALTA	2.6.1.42	Valine, Leucine, and Isoleucine Metabolism	NaN
+VALTRS	6.1.1.9	tRNA Charging	NaN
+VPAMTr	2.6.1.66	Valine, Leucine, and Isoleucine Metabolism	NaN
+XAND	1.1.1.204	Nucleotide Salvage Pathway	NaN
+XPPT	2.4.2.22	Nucleotide Salvage Pathway	NaN
+XTSNH	3.2.2.8	Nucleotide Salvage Pathway	NaN
+XYLI1	5.3.1.5	Alternate Carbon Metabolism	NaN
+XYLI2	5.3.1.5	Alternate Carbon Metabolism	NaN
+XYLK	2.7.1.17	Alternate Carbon Metabolism	NaN
+XYLK2	2.7.1.53	Alternate Carbon Metabolism	NaN

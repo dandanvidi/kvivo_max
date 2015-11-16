@@ -284,3 +284,16 @@ class rates(object):
         
 if __name__ == "__main__":
     R = rates()
+    kcat = R.kcat['kcat per active site [s-1]'].dropna()
+    kmax = R.kmax['kmax per active site [s-1]'].dropna()
+    
+    index = kcat.index & kmax.index
+    
+    kcat = kcat[index]
+    kmax = kmax[index]
+    from scipy import stats
+    
+    pearson = stats.pearsonr(np.log(kcat), np.log(kmax))
+    spearman = stats.spearmanr(kcat, kmax)
+    kendal = stats.kendalltau(kcat, kmax)
+

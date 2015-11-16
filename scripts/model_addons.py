@@ -42,3 +42,4 @@ class add_to_model(object):
 if __name__ == "__main__":
     model = create_cobra_model_from_sbml_file('../data/iJO1366.xml')
     add_to_model(model)
+    
