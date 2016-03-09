@@ -95,7 +95,7 @@ if __name__ == "__main__":
     add_to_model(model)
     
     reactions = ['MDH','FBA','TPI','FBP','PGM','SERAT','TMDS','DBTS','DM_4CRSOL']
-    reactions = ['PPS', 'MDH']
+    reactions = ['ATPPRT']
     reactions = map(model.reactions.get_by_id, reactions)
 #    reactions = model.reactions
     Th = reaction_thermodynamics(reactions)
